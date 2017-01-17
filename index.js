@@ -4,9 +4,8 @@ var hljs = require('highlight.js');
 var MAP = {
     'py': 'python',
     'js': 'javascript',
-    'json': 'javascript',
     'rb': 'ruby',
-    'csharp': 'cs',
+    'csharp': 'cs'
 };
 
 function normalize(lang) {
