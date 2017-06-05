@@ -1,25 +1,25 @@
 {
-    "name": "gitbook-plugin-highlight",
-    "description": "Default code highlighter for GitBook",
+    "name": "gitbook-plugin-bandwidth-highlight",
+    "description": "Default code highlighter for Bandwidth's GitBook",
     "main": "index.js",
-    "version": "2.0.3",
+    "version": "1.0.0",
     "engines": {
         "gitbook": ">=2.4.0"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-highlight",
+    "homepage": "https://github.com/dtolb/plugin-highlight",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-highlight.git"
+        "url": "https://github.com/dtolb/plugin-highlight.git"
     },
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-highlight/issues"
+        "url": "https://github.com/dtolb/plugin-highlightissues"
     },
     "dependencies": {
         "highlight.js": "9.8.0"
     },
     "devDependencies": {
-        "less": "2.7.1",
+        "less": "2.7.2",
         "mocha":"3.2.0",
         "gitbook-tester":"1.4.3"
     },
