@@ -2,6 +2,7 @@ var path = require('path');
 var hljs = require('highlight.js');
 
 var MAP = {
+    '': 'ocaml',
     'py': 'python',
     'js': 'javascript',
     'json': 'javascript',
